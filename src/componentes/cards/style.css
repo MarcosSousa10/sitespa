@@ -1,0 +1,8 @@
+.a {
+    max-width: 400px;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,11 +1,15 @@
+
 import './style.css';
 
-const footers= ()=>{
+const Footer = () => {
+
+
 
     return(
+
         <footer>
             <h1>Footer</h1>
         </footer>
     )
 }
-export default footers;
+export default Footer;
