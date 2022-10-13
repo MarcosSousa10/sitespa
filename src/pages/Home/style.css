@@ -1,0 +1,13 @@
+div {
+    height: calc(100vh - 85px);
+}
+
+.imagem {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+img {
+    height: 100%;
+}
