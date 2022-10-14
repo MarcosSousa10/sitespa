@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const card=()=>{
   const computador = 'https://cdn.dooca.store/18579/products/784-2_250x250+fill_ffffff.jpg?v=1651761979';
     return(
-      <div className='b'>
+      <div className='b container'>
       <div class="card mb-3" style={{maxWidth: "540px;"}}>
   <div class="row g-0">
     <div class="col-md-4">
