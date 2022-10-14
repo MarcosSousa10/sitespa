@@ -1,10 +1,13 @@
 import './style.css';
-import Card from '../../componentes/cards/card';
+import Cards from '../../componentes/cards/card';
+import Carrossel from '../../componentes/carrossel';
+import Card from '../../componentes/card/index';
 const home = () => {
     
 return (
 <div>
-< Card />
+<Carrossel />< Cards /><Card/>
+
 </div>
 )
 }
