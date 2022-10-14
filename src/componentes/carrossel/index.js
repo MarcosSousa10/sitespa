@@ -10,22 +10,23 @@ import './style.css';
     
     const items = [
       {
-        src: 'https://picsum.photos/id/123/1200/400',
+        src: 'https://lh3.googleusercontent.com/p/AF1QipPfGfWZulz2QBLwGL1N3zwvAbdw63gScx7RzLlM=w1080-h608-p-no-v0',
         altText: 'Slide 1',
         caption: 'Slide 1',
         key: 1,
       },
       {
-        src: 'https://picsum.photos/id/456/1200/400',
+        src: 'https://giassi.vtexassets.com/arquivos/ids/507646/Pao-Hotel-Giassi-Kg-.png?v=637994834274800000',
         altText: 'Slide 2',
         caption: 'Slide 2',
         key: 2,
       },
       {
-        src: 'https://picsum.photos/id/678/1200/400',
+        src: 'https://paniere.com.br/wp-content/uploads/2014/05/case.png',
         altText: 'Slide 3',
         caption: 'Slide 3',
         key: 3,
+        class:"asd"
       },
     ];
     
