@@ -10,23 +10,25 @@ import './style.css';
     
     const items = [
       { 
-        src: 'https://lh3.googleusercontent.com/p/AF1QipPfGfWZulz2QBLwGL1N3zwvAbdw63gScx7RzLlM=w1080-h608-p-no-v0',
+        src: 'https://images.convertbox.com/users/1369/b64de8539e8ab9f19a2b254284f09b0c.png',
         altText: 'Slide 1',
-        caption: 'Slide 1',
+        caption: <p className='bolo'>Os melhores salgados da região</p>,
         key: 1,
-        className:'ase',
+        className:'container-lg',
       },
       {
-        src: 'https://giassi.vtexassets.com/arquivos/ids/507646/Pao-Hotel-Giassi-Kg-.png?v=637994834274800000',
+        src: 'https://www.saudevitalidade.com/wp-content/uploads/2021/02/Conheca-o-Appao-%E2%80%93-aplicativo-de-entrega-de-pao-em-casa-2.png',
         altText: 'Slide 2',
-        caption: 'Slide 2',
+        caption: <p className='bolo'>Que não te falte um sorriso no rosto e um pão quentinho na mão todas as manhãs</p>,
         key: 2,
+        className:'container-lg',
       },
       {
-        src: 'https://paniere.com.br/wp-content/uploads/2014/05/case.png',
+        src: 'https://tradicionalbolosetortas.com.br/wp-content/uploads/2018/12/bolos-de-festa-03.png',
         altText: 'Slide 3',
-        caption: 'Slide 3',
+        caption: <p className='bolo'>Confeitar é só um jeitinho diferente de amar.</p>,
         key: 3,
+        className:'container-lg',
       },
     ];
     
@@ -54,12 +56,13 @@ import './style.css';
     
       const slides = items.map((item) => {
         return (
+          
           <CarouselItem
             onExiting={() => setAnimating(true)}
             onExited={() => setAnimating(false)}
             key={item.src}
           >
-            <img src={item.src} alt={item.altText} />
+            <img src={item.src} className={item.className} alt={item.altText} />
             <CarouselCaption
               captionText={item.caption}
               captionHeader={item.caption}
@@ -69,13 +72,14 @@ import './style.css';
       });
     
       return (
-        <div className='car bg-dark m-5 '>
+        <div className=' car m-5 '>
         <Carousel    
           activeIndex={activeIndex}
           next={next}
           previous={previous}
           {...args}
-        >          
+        >
+                    
           <CarouselIndicators
             items={items}
             activeIndex={activeIndex}

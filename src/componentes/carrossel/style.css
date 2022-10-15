@@ -2,10 +2,11 @@ img {
     max-height: 500px;
 }
 
-.ase {}
+.bolo {
+    color: white;
+}
 
 .car {
     align-items: center;
     text-align: center;
-    color: black;
 }

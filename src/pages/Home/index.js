@@ -6,8 +6,13 @@ const home = () => {
     
 return (
 <div>
-<Carrossel />< Cards /><Card/>
+<Carrossel />
+<div className='container conter'>
 
+<p className='textohome'>A vida anda muito corrida e você ainda não teve tempo de comer alguma coisa? Então dê uma passadinha na nossa padaria e confira os nossos produtos! Sempre fresquinho e de altíssima qualidade! O (nome do supermercado) te deseja um bom apetite!
+</p>
+</div>
+<Card/>
 </div>
 )
 }

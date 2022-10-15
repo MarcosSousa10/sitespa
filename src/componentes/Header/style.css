@@ -2,7 +2,8 @@
     background-color: #6ab04c;
     color: #fff;
     display: flex;
-    align-items: center;
+    align-items: center !important;
+    text-align: center !important;
     justify-content: space-between;
     height: 80px;
     padding: 0 7%;

@@ -1,3 +1,12 @@
-div {
-    height: calc(100vh - 85px);
+.div {
+    height: calc(100vh - 145px);
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.margem{
+    margin: 20px;
+    margin-top: 100px;
 }

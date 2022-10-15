@@ -7,8 +7,8 @@ const Footer = () => {
 
     return(
 
-        <footer>
-            <h1>Footer</h1>
+        <footer className="  bg-dark">
+            <h2>Padaria e Mercearia Mix</h2>
         </footer>
     )
 }

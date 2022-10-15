@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+*{font-family: 'Alkalami', serif;}
+.textohome{
+    max-width: 400px;
+   
+}
+.conter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
