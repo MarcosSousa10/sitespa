@@ -11,7 +11,7 @@ const Header = () => {
     <h2 >Padaria e Mercearia Mix</h2>
     <ul>
         <li><Link to={'/'}><a>Home</a></Link></li>
-        <li><Link to={'/sobre'}><a>"Quem Somos"</a></Link></li>
+        <li><Link to={'/sobre'}><a>"Sobre"</a></Link></li>
         <li><Link to={'/faleconosco'}><a>Fale Conosco</a></Link></li>
     </ul>
 </main>
