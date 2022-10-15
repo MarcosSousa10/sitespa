@@ -8,11 +8,11 @@ return (
     <h1>Preencha Os Campos e Entraremos Em Contato</h1>
 <form>
 <label for="">Nome:</label>
-<input type="text" name="" value=""/>
+<input type="text" name="nome" placeholder='Nome' />
  <label for="">Email:</label>
- <input type="email" name="" value=""/>
+ <input type="email" name="email" placeholder='Email' />
 <label for="">TeleFone Para Contato</label>
-<input type="tel" name="" value=""/><br/>
+<input type="tel" name="telefone" placeholder='Telefone' /><br/>
 <button type="">Enviar</button>
 
 </form>
