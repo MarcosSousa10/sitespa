@@ -10,9 +10,9 @@ const Header = () => {
     <Link to={'/'}><img className="img" src="https://lirp.cdn-website.com/80774b77/dms3rep/multi/opt/padaria+casa+aurora+%281%29-1920w.png" alt="" /></Link>
     <h2 >Padaria e Mercearia Mix</h2>
     <ul>
-        <li><Link to={'/'}><a>Home</a></Link></li>
-        <li><Link to={'/sobre'}><a>"Sobre"</a></Link></li>
-        <li><Link to={'/faleconosco'}><a>Fale Conosco</a></Link></li>
+        <li><Link to={'/'}>Home</Link></li>
+        <li><Link to={'/sobre'}>Sobre</Link></li>
+        <li><Link to={'/faleconosco'}>Fale Conosco</Link></li>
     </ul>
 </main>
     )

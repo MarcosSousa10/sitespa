@@ -10,7 +10,11 @@ const sobre=()=>{
   
  Vislumbramos ser, a curto prazo, não só em Santa Luzia, como em todo o Estado de Minas Gerais, líder no segmento de panificação, confeitaria e lanches rápidos, com a solidificação da marca na Capital e expansão para diversos municípios do Estado, sendo também uma empresa reconhecida pelos níveis de excelência em sua atuação empresarial.</p>
             
-        </div>
+                
+            
+ <iframe className='video' width="1280" height="720" src="https://www.youtube.com/embed/-5gMeHkDTGY" title="Incríveis Máquinas para Fabricação e Processamento de Pães - Linha de produção automatizada de pães" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+       </div>
     )
 }
 export default sobre;

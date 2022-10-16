@@ -6,24 +6,24 @@ const card = ()=>{
     <div className="card text-dark text-center will  border-info ">
       <img src="https://www.meudeju.com.br/wp-content/uploads/2021/04/Padaria.png" className="card-img-top" alt="..."/>
       <div className="card-body  border-5 border-info ">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">Pão Francês</h5>
+        <p className="card-text">O pao francês, também conhecido como pão cacetinho, pãozinho ou pão de sal, é um tipo de pão feito de farinha, sal, água e fermento. Este pão tem um exterior crocante, e é popular no Chile, Brasil, na região dos Andes da Bolívia e do Peru mas também pode ser encontrado na Argentina e no Uruguai.</p>
         <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
     <div className="card text-dark text-center will border-danger ">
       <img src="https://www.padariarequinte.com.br/wp-content/uploads/2021/05/img-sobre-padaria.png" className="card-img-top" alt="..."/>
       <div className="card-body ">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">Diversidades</h5>
+        <p className="card-text">Trabalhamos com diversos tipos de pães.</p>
         <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
     <div className="card text-dark text-center will align-content-center border-dark ">
       <img src="https://d2r9epyceweg5n.cloudfront.net/stores/001/136/636/products/bananinha_cereal-und-25g1-f7ed2bebdfa064db0415950921105973-480-0.png" className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <h5 className="card-title">Pão doce simples e fofinho com calda de leite condensado</h5>
+        <p className="card-text">Pão doce é um tipo de pão muito comum no Brasil e em Portugal. A receita varia conforme a região de origem. Nas padarias e confeitarias do Rio de Janeiro, o pão doce é extremamente comum e consiste em um pão de massa doce com creme de baunilha decorado com frutas em calda e cobertura de fondant e geleia de brilho.</p>
         <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
