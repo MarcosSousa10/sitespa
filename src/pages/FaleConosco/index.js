@@ -12,7 +12,7 @@ function FaleConosco() {
 const [limpo,setLimpo]= useState({nome:"",email:"",telefone:"",assunto:"",obeservacao:""});
   
   const saveTask= async () => {
-   const task = await axios.post('http://localhost:3333/todo', {
+   const task = await axios.post('https://bepadaria.herokuapp.com/todo', {
     nome:nome,
     email:email,
     telefone:telefone,
