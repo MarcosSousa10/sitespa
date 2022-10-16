@@ -1,27 +1,54 @@
-import './style.css';
-const faleconosco = () => {
-    
-return (
-    <div className='container formulario'>
-        
-    
-    <h1>Preencha Os Campos e Entraremos Em Contato</h1><br/>
-    <h4>Para Orçamentos, Encomendas Entre Outros </h4>
-<form>
-<label for="">Nome:</label>
-<input type="text" name="nome"  placeholder='Nome' /><br/>
- <label for="">Email:</label>
- <input type="email" name="email" placeholder='Email' /><br/>
-<label for="">TeleFone Para Contato</label>
-<input type="tel" name="telefone" placeholder='Telefone' /><br/>
-<label for="">Assunto</label>
-<input type="text" name="observacao" placeholder='Assunto'/><br/>
-<label for="">Reclamações, Elogios e/ou Observações</label>
-<textarea rows="5" cols="30"style={{resize:'none'}} placeholder='Reclamações, Elogios e/ou Observações'></textarea><br/>
-<button type="submit" className='btn btn-primary'>Enviar</button>
 
-</form>
-</div>
-)
+import './style.css';
+import { useState } from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
+function FaleConosco() {
+  const [nome, setNome] = useState('');
+  const [email, setEmail] = useState('');
+  const [telefone, setTelefone] = useState('');
+  const [assunto, setAssunto] = useState('');
+  const [observacao, setObservacao] = useState('');
+const [limpo,setLimpo]= useState({nome:"",email:"",telefone:"",assunto:"",obeservacao:""});
+  
+  const saveTask= async () => {
+   const task = await axios.post('http://localhost:3333/todo', {
+    nome:nome,
+    email:email,
+    telefone:telefone,
+    assunto:assunto,
+    observacao:observacao,
+  });
+  }  
+const mudarPagina=()=>{
+  window.location.href = "/";
+
 }
-export default faleconosco;
+    return (
+      
+        <div className='formulario'>
+          
+            <h1>Preencha o Formulatio e Entraremos Em Contato Se Nescessario</h1>
+            <h4>Reclamações, Elogios e/Ou Encomendas</h4>
+            <div className='form'>
+              <label htmlFor="">Informe Seu Nome:</label>
+              <input type="text" placeholder='Nome'   onChange={(txt)=>setNome(txt.target.value)}  />
+              <label htmlFor="">Informe Seu Email:</label>
+              <input type="text" placeholder='Email' onChange={(txt)=>setEmail(txt.target.value )}/>
+              <label htmlFor="">Informe Seu Telefone:</label>
+              <input type="text" placeholder='Telefone' onChange={(txt)=>setTelefone(txt.target.value)}/>
+              <label htmlFor="">Informe o Assunto:</label>
+              <input type="text" placeholder='Assunto'  onChange={(txt)=>setAssunto(txt.target.value)}/>
+              <label htmlFor="">Observaçao, Reclamações e/ou Elogios</label>
+             <textarea cols="30" rows="7" style={{resize:'none'}} placeholder='Observaçao, Reclamações e/ou Elogios' onChange={(txt)=>setObservacao(txt.target.value)}></textarea><br />
+             <button className='btn btn-outline-success salvar' onClick={()=>{saveTask() ;alert("Enviado Com Sucesso")}}>Enviar</button>
+            </div>
+          
+       
+        
+      </div>
+    );
+  }
+  
+  export default FaleConosco;
+  
