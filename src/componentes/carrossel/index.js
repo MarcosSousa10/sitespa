@@ -12,23 +12,23 @@ import './style.css';
       { 
         src: 'https://images.convertbox.com/users/1369/b64de8539e8ab9f19a2b254284f09b0c.png',
         altText: 'Slide 1',
-        caption: <p className='bolo'>Os melhores salgados da região</p>,
+        caption: 'Os melhores salgados da região',
         key: 1,
-        className:'container-lg',
+        className:'container-lg bolo',
       },
       {
         src: 'https://www.saudevitalidade.com/wp-content/uploads/2021/02/Conheca-o-Appao-%E2%80%93-aplicativo-de-entrega-de-pao-em-casa-2.png',
         altText: 'Slide 2',
-        caption: <p className='bolo'>Que não te falte um sorriso no rosto e um pão quentinho na mão todas as manhãs</p>,
+        caption: 'Que não te falte um sorriso no rosto e um pão quentinho na mão todas as manhãs',
         key: 2,
-        className:'container-lg',
+        className:'container-lg bolo',
       },
       {
         src: 'https://tradicionalbolosetortas.com.br/wp-content/uploads/2018/12/bolos-de-festa-03.png',
         altText: 'Slide 3',
-        caption: <p className='bolo'>Confeitar é só um jeitinho diferente de amar.</p>,
+        caption: 'Confeitar é só um jeitinho diferente de amar.',
         key: 3,
-        className:'container-lg',
+        className:'container-lg bolo',
       },
     ];
     
