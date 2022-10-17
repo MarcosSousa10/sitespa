@@ -41,7 +41,7 @@ const mudarPagina=()=>{
               <input type="text" placeholder='Assunto'  onChange={(txt)=>setAssunto(txt.target.value)}/>
               <label htmlFor="">Observaçao, Reclamações e/ou Elogios</label>
              <textarea cols="30" rows="7" style={{resize:'none'}} placeholder='Observaçao, Reclamações e/ou Elogios' onChange={(txt)=>setObservacao(txt.target.value)}></textarea><br />
-             <Link to={'/'}><button className='btn btn-outline-success salvar' onClick={()=>{saveTask() ;alert("Enviado Com Sucesso")}}>Enviar</button></Link>
+             <Link to={'/'}><button className='btn btn-outline-dark salvar' onClick={()=>{saveTask() ;alert("Enviado Com Sucesso")}}>Enviar</button></Link>
             </div>
           
        
