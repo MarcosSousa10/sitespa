@@ -5,7 +5,7 @@ import Card from '../../componentes/card/index';
 const home = () => {
     
 return (
-<div>
+<div className='ae'>
 <Carrossel />
 <div className='container conter'>
 
