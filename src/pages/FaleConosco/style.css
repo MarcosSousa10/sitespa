@@ -1,12 +1,13 @@
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: calc(100vh - 145px);
+    min-height: calc(100vh - 145px);
 }
-.formulario .form{
+
+.formulario .form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,10 +17,12 @@
     padding: 20px;
     color: black;
     border: solid 5px black;
-    
-
 }
-.formulario .form input{
+
+.formulario .form input {
     border-radius: 10px;
 }
-.formulario .form textarea{border-radius: 10px;}
+
+.formulario .form textarea {
+    border-radius: 10px;
+}

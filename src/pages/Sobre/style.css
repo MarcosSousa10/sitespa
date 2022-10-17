@@ -1,17 +1,19 @@
 .div {
-    height: calc(100vh - 145px);
+    min-height: calc(100vh - 145px);
     display: flex;
     flex-direction: column;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.margem{
+
+.margem {
     margin: 20px;
     margin-top: 100px;
 }
-.video{
-  max-width: 500px;
-  max-height: 500px;
-  margin-bottom: 30px;
+
+.video {
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 30px;
 }

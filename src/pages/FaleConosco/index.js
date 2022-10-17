@@ -26,11 +26,11 @@ const mudarPagina=()=>{
 }
     return (
       
-        <div className='formulario'>
+        <div className='formulario '>
           
             <h1>Preencha o Formulatio e Entraremos Em Contato Se Nescessario</h1>
             <h4>Reclamações, Elogios e/Ou Encomendas</h4>
-            <div className='form'>
+            <div className='form '>
               <label htmlFor="">Informe Seu Nome:</label>
               <input type="text" placeholder='Nome'   onChange={(txt)=>setNome(txt.target.value)}  />
               <label htmlFor="">Informe Seu Email:</label>
